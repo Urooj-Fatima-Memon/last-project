@@ -1,0 +1,92 @@
+body{
+  background-color: black;
+}
+.here{
+  color: #FFF;
+font-family: Almendra SC;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #FFF;
+font-family: ABeeZee;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.market{
+  color: #FFF;
+font-family: Chela One;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.double-border-button-1 {
+  display: inline-block;
+  position: relative;
+}
+.nameee{
+  box-shadow: #BFC200 !important;
+}
+
+.double-border-button-1 button {
+  padding: 10px 20px;
+  border: 2px solid #000 ; 
+  background-color: transparent;
+  position: relative;
+  width: 180px;
+  height: 60px;
+  right: -9px;
+  bottom: -8px;
+  
+  border-radius: 5px;
+  border: 2px solid #BFC200;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.buttn{
+  color: aliceblue;
+  background-color: aliceblue;
+}
+
+
+
+.home{
+
+  font-size: 20px;
+  color: #BFC200;
+
+
+}
+
+.sign{
+ 
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #FFF;
+
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.double-border-button-1::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  margin-left: 20px;
+  left: -1px;
+  right: -2px;
+  bottom: -1px;
+  border: 2px solid #BFC200; /* Inner border */
+
+  border-radius: 5px;
+  margin-top: 20px;
+}
